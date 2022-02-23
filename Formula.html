@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function getFullarea() {
+        var l1 = document.getElementById("legnth").value;
+        var b1 = document.getElementById("width").value;
+        document.getElementById("area").value = l1 + " " + b1;
+      }
+    </script>
+  </head>
+  <body>
+    <label for="">Legnth of traingle</label>
+    <input id="legnth" type="text" /><br /><br />
+
+    <label for="">Breadth of traingle</label>
+    <input id="width" type="text" /><br /><br />
+
+    <button onclick="getFullarea()">Submit</button>
+
+    <label for="">Area of traingle</label>
+    <input id="area" type="text" />
+  </body>
+</html>
